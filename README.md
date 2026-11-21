@@ -14,9 +14,9 @@ This repository provides the exact operating rules, onboarding prompts, major sk
 
 ***
 
-### The Fourteen Major Skills Included
+### The Fifteen Major Skills Included
 
-This repository packages the fourteen core skills that power a disciplined engineering workflow:
+This repository packages the fifteen core skills that power a disciplined engineering workflow:
 
 1. Test Driven Development
 Enforces the Red Green Refactor cycle. Tests must be written and proven to fail before writing production logic.
@@ -60,6 +60,9 @@ Applies behavioral guardrails to prevent common Large Language Model mistakes li
 14. Brag
 Automatically generates polished video demos and social showcase clips directly from project source code.
 
+15. Obscura
+Lightweight, fast headless browser engine in Rust consuming only 30 MB memory with built in anti detect capabilities.
+
 ***
 
 ### One Click Master Onboarding Prompt
@@ -82,8 +85,8 @@ Act as an elite Staff Software Engineer and mentor. Follow three non negotiable 
 • rules/AGENTS.md: universal drop in workspace protocol for autonomous agents.
 • rules/CLAUDE.md: tailored rules for Claude Code environments.
 • scripts/install_agent_os.py: one click workspace and IDE skill sync script.
-• scripts/verify_setup.py: automated verification test suite checking all nineteen components.
-• skills/: directory containing all fourteen curated production skills.
+• scripts/verify_setup.py: automated verification test suite checking all twenty components.
+• skills/: directory containing all fifteen curated production skills.
 
 ***
 

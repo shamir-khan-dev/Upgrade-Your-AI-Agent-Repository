@@ -29,7 +29,8 @@ def run_verification():
         "skillspector",
         "browser-use",
         "karpathy-guidelines",
-        "brag"
+        "brag",
+        "obscura"
     ]
     
     print("\nVerifying AI Agent OS Configuration...\n")
