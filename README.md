@@ -14,9 +14,9 @@ This repository provides the exact operating rules, onboarding prompts, major sk
 
 ***
 
-### The Fifteen Major Skills Included
+### The Sixteen Major Skills Included
 
-This repository packages the fifteen core skills that power a disciplined engineering workflow:
+This repository packages the sixteen core skills that power a disciplined engineering workflow:
 
 1. Test Driven Development
 Enforces the Red Green Refactor cycle. Tests must be written and proven to fail before writing production logic.
@@ -62,6 +62,9 @@ Automatically generates polished video demos and social showcase clips directly 
 
 15. Obscura
 Lightweight, fast headless browser engine in Rust consuming only 30 MB memory with built in anti detect capabilities.
+
+16. Playwright MCP
+Official Microsoft Playwright Model Context Protocol integration for intelligent browser automation, accessibility tree snapshots, and automated end to end web verification.
 
 ***
 

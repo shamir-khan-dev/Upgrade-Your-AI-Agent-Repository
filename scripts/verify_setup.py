@@ -30,7 +30,8 @@ def run_verification():
         "browser-use",
         "karpathy-guidelines",
         "brag",
-        "obscura"
+        "obscura",
+        "playwright-mcp"
     ]
     
     print("\nVerifying AI Agent OS Configuration...\n")

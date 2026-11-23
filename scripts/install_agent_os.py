@@ -47,7 +47,7 @@ def install_agent_os():
         except Exception as e:
             print(f" [SKIP] Could not write {dest}: {e}")
 
-    # 3. Global Skills Sync (Makes all 14 skills available globally)
+    # 3. Global Skills Sync (Makes all 16 skills available globally)
     print("\n[3/3] Installing Skills Globally Across All AI Environments...")
     global_skill_dirs = [
         home / ".gemini" / "config" / "skills",
@@ -74,7 +74,7 @@ def install_agent_os():
     print("\n=======================================================")
     print(" [COMPLETE] Your AI Agent is now upgraded globally!")
     print(" Every new project, folder, or chat will automatically")
-    print(" use these 14 skills and follow the staff engineer rules.")
+    print(" use these 16 skills and follow the staff engineer rules.")
     print("=======================================================\n")
     return 0
 
