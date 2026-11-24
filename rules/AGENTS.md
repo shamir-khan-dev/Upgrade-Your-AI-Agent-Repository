@@ -9,3 +9,7 @@ This file establishes the engineering standards for all AI sessions in this work
 • Minimalism: reach for standard libraries and native language features before adding external packages.
 • Clean Design: avoid neon gradients, floating glow cards, and repetitive marketing blocks. Use clean, human focused typography and deliberate spacing.
 • Incremental Commits: commit small, verified, atomic changes with semantic prefixes (feat, test, fix, refactor, docs).
+• Automatic Model Tier Routing: evaluate task complexity before execution; answer quick one step questions directly, and delegate substantive work to subagents explicitly pinned to the matching model tier (`Model` parameter on `invoke_subagent`):
+  • `flash_lite`: bulk file operations, directory organization, log filtering, and trivial scans.
+  • `flash`: single file bug fixes, test suite execution, standard UI updates, and targeted lookups.
+  • `pro`: multi file architecture, distributed systems concurrency, security audits, and complex debugging.

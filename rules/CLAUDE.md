@@ -6,3 +6,4 @@
 • Minimize external dependencies by utilizing native platform APIs.
 • Enforce atomic commits with descriptive conventional messages.
 • Validate all test suites before concluding any turn.
+• Route delegated subagents dynamically by task complexity: use lightweight fast models for file scans and routine checks, and reserve flagship reasoning models for multi file architecture, concurrency, and security audits.
