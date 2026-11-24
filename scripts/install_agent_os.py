@@ -32,8 +32,7 @@ def install_agent_os():
     print("\n[2/3] Installing Global Rules for All New Projects...")
     global_rules_destinations = [
         home / ".cursorrules",                               # Cursor global
-        home / ".gemini" / "GEMINI.md",                       # Antigravity global instructions
-        home / ".gemini" / "config" / "AGENTS.md",            # Antigravity config rules
+        home / ".gemini" / "GEMINI.md",                       # Antigravity global instructions (single source to prevent duplicate prompt injection)
         home / ".claude" / "CLAUDE.md",                       # Claude Code global memory
         home / ".agents" / "AGENTS.md"                        # Universal agent standard
     ]
